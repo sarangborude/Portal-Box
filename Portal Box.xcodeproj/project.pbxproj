@@ -13,6 +13,10 @@
 		2714D04D2C67AD2D0049F24B /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714D04C2C67AD2D0049F24B /* ImmersiveView.swift */; };
 		2714D04F2C67AD2E0049F24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2714D04E2C67AD2E0049F24B /* Assets.xcassets */; };
 		2714D0522C67AD2E0049F24B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2714D0512C67AD2E0049F24B /* Preview Assets.xcassets */; };
+		2714D05D2C67ADBF0049F24B /* skybox1.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 2714D0592C67ADBC0049F24B /* skybox1.hdr */; };
+		2714D05E2C67ADBF0049F24B /* skybox4.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 2714D05A2C67ADBD0049F24B /* skybox4.hdr */; };
+		2714D05F2C67ADBF0049F24B /* skybox2.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 2714D05B2C67ADBE0049F24B /* skybox2.hdr */; };
+		2714D0602C67ADBF0049F24B /* skybox3.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 2714D05C2C67ADBF0049F24B /* skybox3.hdr */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2714D04E2C67AD2E0049F24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2714D0512C67AD2E0049F24B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2714D0532C67AD2E0049F24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2714D0592C67ADBC0049F24B /* skybox1.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = skybox1.hdr; sourceTree = "<group>"; };
+		2714D05A2C67ADBD0049F24B /* skybox4.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = skybox4.hdr; sourceTree = "<group>"; };
+		2714D05B2C67ADBE0049F24B /* skybox2.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = skybox2.hdr; sourceTree = "<group>"; };
+		2714D05C2C67ADBF0049F24B /* skybox3.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = skybox3.hdr; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				2714D0482C67AD2D0049F24B /* Portal_BoxApp.swift */,
 				2714D04A2C67AD2D0049F24B /* ContentView.swift */,
 				2714D04C2C67AD2D0049F24B /* ImmersiveView.swift */,
+				2714D0592C67ADBC0049F24B /* skybox1.hdr */,
+				2714D05B2C67ADBE0049F24B /* skybox2.hdr */,
+				2714D05C2C67ADBF0049F24B /* skybox3.hdr */,
+				2714D05A2C67ADBD0049F24B /* skybox4.hdr */,
 				2714D04E2C67AD2E0049F24B /* Assets.xcassets */,
 				2714D0532C67AD2E0049F24B /* Info.plist */,
 				2714D0502C67AD2E0049F24B /* Preview Content */,
@@ -145,8 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2714D0602C67ADBF0049F24B /* skybox3.hdr in Resources */,
+				2714D05D2C67ADBF0049F24B /* skybox1.hdr in Resources */,
 				2714D0522C67AD2E0049F24B /* Preview Assets.xcassets in Resources */,
 				2714D04F2C67AD2E0049F24B /* Assets.xcassets in Resources */,
+				2714D05F2C67ADBF0049F24B /* skybox2.hdr in Resources */,
+				2714D05E2C67ADBF0049F24B /* skybox4.hdr in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

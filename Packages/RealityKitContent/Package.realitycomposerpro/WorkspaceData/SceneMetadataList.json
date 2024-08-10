@@ -1,23 +1,5 @@
 {
   "0A9B4653-B11E-4D6A-850E-C6FCB621626C" : {
-    "cameraTransform" : [
-      1,
-      0,
-      0,
-      0,
-      0,
-      0.86602545,
-      -0.49999994,
-      0,
-      0,
-      0.49999994,
-      0.86602545,
-      0,
-      0.0035969093,
-      0.35542378,
-      0.62919164,
-      1
-    ],
     "objectMetadataList" : [
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
@@ -29,25 +11,43 @@
       }
     ]
   },
+  "2AC75C3C-000F-4348-8DB9-07A84BE10688" : {
+    "objectMetadataList" : [
+      [
+        "2AC75C3C-000F-4348-8DB9-07A84BE10688",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "02C72FF7-9D3D-4CE6-A638-A41AA2C510E8" : {
+    "objectMetadataList" : [
+      [
+        "02C72FF7-9D3D-4CE6-A638-A41AA2C510E8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "8E7C0E21-0C3B-470F-93C2-6DF642B46254" : {
+    "objectMetadataList" : [
+      [
+        "8E7C0E21-0C3B-470F-93C2-6DF642B46254",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "65F6F990-A780-4474-B78B-572E0E4E273D" : {
-    "cameraTransform" : [
-      1,
-      0,
-      -0,
-      0,
-      -0,
-      0.86602545,
-      -0.49999988,
-      0,
-      0,
-      0.49999988,
-      0.86602545,
-      0,
-      1.1972517e-08,
-      2.6179132,
-      0.43191218,
-      1
-    ],
     "objectMetadataList" : [
       [
         "65F6F990-A780-4474-B78B-572E0E4E273D",
@@ -59,25 +59,19 @@
       }
     ]
   },
+  "1034B2E2-64C9-4E1C-869B-9E14E326AF93" : {
+    "objectMetadataList" : [
+      [
+        "1034B2E2-64C9-4E1C-869B-9E14E326AF93",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "66168B71-AB05-424E-8B6C-D33D6E61B08F" : {
-    "cameraTransform" : [
-      1,
-      0,
-      -0,
-      0,
-      -0,
-      0.8660254,
-      -0.5,
-      0,
-      0,
-      0.5,
-      0.8660254,
-      0,
-      0,
-      0.23875366,
-      0.4135335,
-      1
-    ],
     "objectMetadataList" : [
       [
         "66168B71-AB05-424E-8B6C-D33D6E61B08F",
@@ -89,29 +83,33 @@
       }
     ]
   },
+  "ADD8744E-DBD9-49A3-BEF4-4E980039B6B2" : {
+    "objectMetadataList" : [
+      [
+        "ADD8744E-DBD9-49A3-BEF4-4E980039B6B2",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "ADD8744E-DBD9-49A3-BEF4-4E980039B6B2",
+        "Root",
+        "Box"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "AF09ED6F-1707-48FD-8720-65B998362C09" : {
-    "cameraTransform" : [
-      1,
-      0,
-      -0,
-      0,
-      -0,
-      0.7071069,
-      -0.7071067,
-      0,
-      0,
-      0.7071067,
-      0.7071069,
-      0,
-      0,
-      2.8836339,
-      -0.107588194,
-      1
-    ],
     "objectMetadataList" : [
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root"
+        "Root",
+        "Sphere_Right"
       ],
       {
         "isExpanded" : true,
@@ -128,46 +126,6 @@
       },
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "Sphere_Right"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      }
-    ]
-  },
-  "CB766F92-EE55-4A63-9401-E7B8C009764D" : {
-    "cameraTransform" : [
-      1,
-      0,
-      -0,
-      0,
-      -0,
-      0.8660253,
-      -0.5000001,
-      0,
-      0,
-      0.5000001,
-      0.8660253,
-      0,
-      0,
-      0.27093494,
-      0.4692731,
-      1
-    ],
-    "objectMetadataList" : [
-      [
-        "CB766F92-EE55-4A63-9401-E7B8C009764D",
-        "Root",
-        "GridMaterial"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "CB766F92-EE55-4A63-9401-E7B8C009764D",
         "Root"
       ],
       {
@@ -176,48 +134,45 @@
       }
     ]
   },
+  "CB766F92-EE55-4A63-9401-E7B8C009764D" : {
+    "objectMetadataList" : [
+      [
+        "CB766F92-EE55-4A63-9401-E7B8C009764D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "CB766F92-EE55-4A63-9401-E7B8C009764D",
+        "Root",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "D560BB77-AAF3-4BDE-B7C4-989332A4688B" : {
-    "cameraTransform" : [
-      1,
-      0,
-      -0,
-      0,
-      -0,
-      0.8660253,
-      -0.5000001,
-      0,
-      0,
-      0.5000001,
-      0.8660253,
-      0,
-      0,
-      0.27093494,
-      0.4692731,
-      1
-    ],
     "objectMetadataList" : [
 
     ]
   },
+  "D24800BA-358F-4E95-B90A-412BBC109084" : {
+    "objectMetadataList" : [
+      [
+        "D24800BA-358F-4E95-B90A-412BBC109084",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "D66134B1-3681-4A8E-AFE5-29F257229F3B" : {
-    "cameraTransform" : [
-      1,
-      0,
-      -0,
-      0,
-      -0,
-      0.7071069,
-      -0.7071067,
-      0,
-      0,
-      0.7071067,
-      0.7071069,
-      0,
-      0,
-      0.26894823,
-      0.26934713,
-      1
-    ],
     "objectMetadataList" : [
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
@@ -231,6 +186,18 @@
       },
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "EF082BB6-1C14-40CC-B66F-E4BFF03336D1" : {
+    "objectMetadataList" : [
+      [
+        "EF082BB6-1C14-40CC-B66F-E4BFF03336D1",
         "Root"
       ],
       {

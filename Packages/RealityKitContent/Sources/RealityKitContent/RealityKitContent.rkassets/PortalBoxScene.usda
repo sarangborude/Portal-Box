@@ -1,0 +1,237 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["Box", "MaplePlywood", "AnchorPortal1", "AnchorPortal2", "AnchorPortal3", "AnchorPortal4"]
+    def Xform "Box" (
+        active = true
+    )
+    {
+        reorder nameChildren = ["Cube", "Cube_1", "Cube_2", "Cube_3", "Base", "Top", "AnchorPortal1", "AnchorPortal2", "AnchorPortal3", "AnchorPortal4"]
+        def Cube "Cube" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </Root/MaplePlywood> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 1
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.048, 1, 0.048)
+            float3 xformOp:translate = (0.5, 0, 0.5)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cube "Cube_1" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </Root/MaplePlywood> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 1
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.048, 1, 0.048)
+            float3 xformOp:translate = (-0.5, 0, 0.5)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cube "Cube_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </Root/MaplePlywood> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 1
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.048, 1, 0.048)
+            float3 xformOp:translate = (0.49999684, -3.8562575e-10, -0.5)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cube "Cube_3" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </Root/MaplePlywood> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 1
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.048, 1, 0.048)
+            float3 xformOp:translate = (-0.50000316, -3.8562575e-10, -0.5)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cube "Base" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </Root/MaplePlywood> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 1
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.05, 0.05, 1.05)
+            float3 xformOp:translate = (0, -0.5, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cube "Top" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </Root/MaplePlywood> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 1
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.05, 0.05, 1.05)
+            float3 xformOp:translate = (0, 0.5, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Xform "AnchorPortal1" (
+            active = true
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (0, 0, 0.5)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Xform "AnchorPortal2" (
+            active = true
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (0, 0, -0.5)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Xform "AnchorPortal3" (
+            active = true
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (-0.5, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Xform "AnchorPortal4" (
+            active = true
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (0.5, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def "MaplePlywood" (
+        active = true
+        references = @MaplePlywood.usdz@
+    )
+    {
+        color3f inputs:Basecolor_Tint = (0.8340569, 0.56362015, 0.31908202) (
+            colorSpace = "srgb_displayp3"
+            customData = {
+                dictionary realitykit = {
+                    float2 positionInSubgraph = (-56.812614, 67.17455)
+                    float2 sizeInSubgraph = (160.5, 53)
+                    int stackingOrderInSubgraph = 2328
+                }
+            }
+        )
+        float2 inputs:UV_Scale (
+            customData = {
+                dictionary realitykit = {
+                    float2 positionInSubgraph = (-725.2588, 351.55255)
+                    float2 sizeInSubgraph = (138.5, 53)
+                    int stackingOrderInSubgraph = 2272
+                }
+            }
+        )
+        float2 ui:nodegraph:realitykit:subgraphOutputs:size = (181.5, 99)
+
+        over "Dot"
+        {
+            float2 ui:nodegraph:node:size = (44, 18)
+        }
+
+        over "multiply"
+        {
+            float2 ui:nodegraph:node:size = (60, 36)
+        }
+
+        over "add"
+        {
+            float2 ui:nodegraph:node:size = (61.5, 36.5)
+        }
+
+        over "PreviewSurface"
+        {
+            float2 ui:nodegraph:node:size = (148.5, 199)
+        }
+
+        over "Mix"
+        {
+            float2 ui:nodegraph:node:size = (109, 145)
+        }
+
+        over "Swizzle"
+        {
+            float2 ui:nodegraph:node:size = (133.5, 40)
+        }
+
+        over "Swizzle_1"
+        {
+            float2 ui:nodegraph:node:size = (145.5, 53)
+        }
+
+        over "Multiply_1"
+        {
+            float2 ui:nodegraph:node:size = (60, 36)
+        }
+
+        over "BaseColor"
+        {
+            float2 ui:nodegraph:node:size = (158.5, 235)
+        }
+
+        over "Roughness"
+        {
+            float2 ui:nodegraph:node:size = (158.5, 235)
+        }
+
+        over "Metallic"
+        {
+            float2 ui:nodegraph:node:size = (158.5, 235)
+        }
+
+        over "Normal"
+        {
+            float2 ui:nodegraph:node:size = (158.5, 235)
+        }
+    }
+}
+
